@@ -1,0 +1,18 @@
+.payment-billinginfo-main > *{
+    width:80%;
+    margin:15px 50px;
+}
+
+.date-cvv{
+  
+}
+
+.date-cvv > * {
+  display:inline-block;
+  width: 32%;
+  margin-left: 5px;
+}
+
+.payment-btn{
+  margin-top:5px;
+}

@@ -1,0 +1,92 @@
+.HomePage {
+  display: flex;
+  margin-top: 6rem;
+  height: 100vh;
+}
+
+.sec1-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  z-index: 2;
+}
+
+.sec1-left > h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 100px;
+}
+
+.sec1-left > div {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.sec1-right {
+  flex: 1;
+  position: absolute;
+  float: right;
+  right: 0px;
+}
+
+.sec1-right > * {
+  z-index: 1;
+  position: absolute;
+}
+
+.sec1-right > .image-main {
+  display: flex;
+  transform: scale(0.9) !important;
+  top: -250px;
+  right: 250px;
+  z-index: 0;
+}
+
+/* float btc */
+.sec1-right > :nth-child(2) {
+  display: flex;
+  transform: scale(0.2);
+  top: -475px;
+  position: absolute;
+  /* left:200px; */
+  right: 500px;
+  z-index: 1;
+}
+
+/* float doge */
+.sec1-right > :nth-child(3) {
+  transform: scale(0.2);
+  top: -150px;
+  right: 50px;
+}
+
+.sec1-right > :nth-child(2):hover,
+.sec1-right > :nth-child(2):active {
+  transform: scale(0.2);
+  /* left:600px; */
+  /* top:-250px; */
+}
+
+.sec1-right > :nth-child(3):hover,
+.sec1-right > :nth-child(3):active {
+  transform: scale(0.2);
+  /* left:1100px; */
+}
+
+.carousel {
+  position: absolute;
+  top: 600px;
+  /* display:block; */
+}
+
+
+.footer{
+  position:absolute;
+  height:100px;
+  bottom:0px;
+  text-align: center;
+  /* top:50%; */
+  left:50%;
+  transform:translate(-50%);
+}

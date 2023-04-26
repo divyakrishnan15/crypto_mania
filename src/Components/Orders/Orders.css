@@ -1,0 +1,106 @@
+.orders-name{
+    /* display:relative; */
+    /* inset:20px; */
+    margin:50px 80px;
+    font-size: 30px;
+    font-weight:600;
+    /* text-decoration: underline; */
+}
+
+.orders-main{
+    margin:50px 40px;
+    width:fit-content;
+    
+}
+
+.card{
+    position: relative;
+    height:350px;
+    width:250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 6px rgba(157, 153, 153, 0.278);
+    display: inline-block;
+    margin:50px 50px;
+    /* background-color: #282c34; */
+}
+
+.icon{
+    position: absolute;
+    border-radius: 50px;
+    height:100px;
+    width:150px;
+    z-index: 1;
+    top:-50px;
+    left:50px;
+}
+
+.crypto-Name{
+    position: absolute;
+    font-size:25px;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:0;
+    top:40px;
+    left:25px;
+    text-align: center;
+    margin:10px 65px;
+}
+
+.crypto-Symbol{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight:600;
+    top:80px;
+    margin:25px 100px;
+}
+
+.card-body{
+    position: absolute;
+    /* background-color: darkslategray; */
+    top:100px;
+    margin:35px 5px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:5px;
+    padding-left:15px;
+
+
+}
+
+.card-body-left{
+    display:flex;
+    flex-direction: column;
+    margin:5px 5px;
+}
+
+.card-body-right{
+    display:flex;
+    flex-direction: column;
+    margin:5px 5px;
+    align-items: flex-start;
+    justify-content: center;
+    float:right;
+    /* margin-top:-40px; */
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.AddtoCart{
+    position: absolute;
+    width:150px;
+    inset:-10px 0 0 -90px;
+    /* transform: translate(-60%); */
+    margin:55px 15px;
+    color:white;
+    padding: .5rem 3rem;
+    border: none;
+    border-radius: 100rem;
+    background-image: linear-gradient(35deg, #2904fa,#fd03e8);
+}

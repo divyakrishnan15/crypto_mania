@@ -1,0 +1,26 @@
+.carouselWrapper{
+    overflow: hidden;
+    width: calc(100vw - 20px);
+}
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 20px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.carouselItem__img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px black;
+    width:60px;
+    height:60px;
+    /* transform: scale(0.5); */
+}
+
+.carouselItem__txt{
+
+}

@@ -1,6 +1,30 @@
-.App {
+/* .App {
   text-align: center;
+} */
+body,html{
+  /* padding:0;
+  margin:0;
+  box-sizing: border-box; */
+  height: 100%;
 }
+.App{
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  
+  /* width:100%; */
+  /* background-color: rgb(36,50,56); */
+  /* background-color: #243238; */
+  /* card */
+  /* background-color:#1f2937; */
+  /* color:white;
+  background-color: black; */
+}
+
+ /* html{ */
+  /* background-color:#243238 ; */
+  /* background-color: #020415; */
+/* }  */
 
 .App-logo {
   height: 40vmin;
@@ -13,15 +37,23 @@
   }
 }
 
+
+ .center{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
+  
 }
 
 .App-link {
@@ -35,4 +67,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dark-theme {
+  --bg: #1f2937;
+  --bg-active: #111827;
+  --white: white;
+  --black: black;
+}
+.light-theme {
+  --bg: #f3f4f6;
+  --bg-active: #d1d5db;
+  /* --bg: #d1d5db; */
+  --white: black;
+  --black: white;
 }
